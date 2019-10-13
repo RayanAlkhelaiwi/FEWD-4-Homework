@@ -1,0 +1,23 @@
+        a {
+            color: #900;
+        }
+
+        body {
+            background-color: #FFE;
+            border-style: double;
+            padding: 8px;
+
+            /* Extra */
+            font-family: sans-serif;
+            max-width: 500px;
+            margin: auto;
+            margin-top: 8px;
+        }
+
+        img {
+            border-style: dashed;
+        }
+
+        .nutrition_info_text {
+            color: #887;
+        }
