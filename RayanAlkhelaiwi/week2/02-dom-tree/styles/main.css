@@ -1,0 +1,100 @@
+body {
+    font-family: "Anaheim";
+    margin: 0px;
+}
+
+.header {
+    background-color: #75ce9d;
+    color: #edf5e1;
+    display: flex;
+    flex-direction: row;
+}
+
+.header_alignment_logo {
+    margin-right: auto;
+    padding-left: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.header_alignment_menu {
+    margin-left: auto;
+    padding-right: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.navigation {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.navigation ul li {
+    text-align: center;
+    display: inline;
+    list-style: none;
+    padding: 8px;
+}
+
+.navigation ul li:not(:first-child) {
+    border-left: 1px solid;
+}
+
+.main {
+    text-align: center;
+    display: inline;
+}
+
+.section_one {
+    background-color: #beffdc;
+    color: #05386b;
+    padding: 16px;
+}
+
+.section_one p {
+    font-size: 32px;
+}
+
+.section_two {
+    background-color: #edf5e1;
+    color: #05386b;
+    padding: 16px;
+}
+
+.img_one,
+.img_two,
+.img_three {
+    border: 1px solid #05386b;
+    width: 300px;
+    height: 200px;
+}
+
+.captions ul li {
+    text-align: center;
+    display: inline;
+    list-style: none;
+    padding: 122px;
+    font-size: 24px;
+}
+
+.section_three {
+    background-color: #beffdc;
+    color: #05386b;
+    padding: 16px;
+}
+
+.section_three p {
+    font-size: 32px;
+}
+
+.footer {
+    background-color: #05386b;
+    color: #edf5e1;
+    display: flex;
+    padding-right: 16px;
+    justify-content: flex-end;
+    font-size: 16px;
+}

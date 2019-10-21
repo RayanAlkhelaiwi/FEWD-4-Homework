@@ -1,0 +1,66 @@
+body {
+  font-family: sans-serif;
+  background-color: #EDEFEC;
+  display: flex;
+  text-align: center;
+}
+
+.upper_body,
+.lower_body {
+  display: flex;
+}
+
+.upper_section,
+.lower_section {
+  margin-bottom: 64px;
+}
+
+p, .main_title {
+  color: #565960;
+}
+
+.city_text {
+  color: white;
+}
+
+.main_title, .city_text {
+  font-size: 32px;
+  font-weight: bolder;
+}
+
+img {
+  position: relative;
+  float: left;
+  width: 20%;
+  height: 500px;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+button {
+
+  margin-top: 48px;
+  font-size: 16px;
+  font-weight: bolder;
+  padding-right: 181px;
+  padding-left: 181px;
+}
+
+.san_one_container,
+.nyc_container,
+.london_container,
+.napa_container,
+.sonoma_container,
+.san_two_container {
+  position: relative;
+  padding-right: 24px;
+  padding-left: 24px;
+}
+
+.city_text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
