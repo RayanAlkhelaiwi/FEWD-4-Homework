@@ -1,0 +1,66 @@
+body {
+    background-color: #009b67;
+}
+
+.container {
+    font-family: 'Cinzel', serif;
+    font-size: 32px; 
+    display: grid;
+    grid-template-columns: 1fr 1fr 2fr 1fr 1fr;
+    grid-auto-rows: minmax(125px, auto);
+    gap: 4px;
+}
+
+.container>div {
+    display: flex;
+    align-items: center;
+}
+
+.name {
+    background-color: #c7ca00;
+    color: #333;
+    
+    /* Override */
+    font-size: 56px;
+    /* ^ */
+
+    justify-content: center;
+    text-align: center;
+    grid-row: 2/4;
+    grid-column: 2/5;
+}
+
+.about {
+    margin-left: 16px;
+    align-items: center;
+    text-align: center;
+    color: #c7ca00;
+    grid-row: 4/5;
+    grid-column: 3/4;
+}
+
+.intro {
+    margin-left: 24px;
+    justify-content: center;
+    text-align: center;
+    color: #333;
+    grid-row: 5/8;
+    grid-column: 3/5;
+}
+
+.pic {
+    grid-row: 4/8;
+    grid-column: 2/3;
+    height: auto;
+    max-width: 400px;
+}
+
+.pic img {
+    border: 1px solid #c7ca00;
+}
+
+.signature {
+    grid-row: 8/9;
+    grid-column: 4/5;
+    justify-content: center;
+}
