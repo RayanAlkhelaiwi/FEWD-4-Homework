@@ -1,0 +1,210 @@
+body {
+    font-family: 'Nunito', Arial, sans-serif;
+    background-color: #dadcdcb0;
+    text-align: center;
+    margin-left: 144px;
+    margin-right: 144px;
+}
+
+/*
+    *********
+      Header
+    *********
+*/
+
+.header {
+    background-color: #fff;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.logo {
+    width: 96px;
+    height: 32px;
+    margin-left: 32px;
+    margin-top: 8px;
+    margin-bottom: 4px;
+}
+
+nav ul li {
+    display: inline-block;
+    color: #2e2e2e;
+    margin-right: 8px;
+}
+
+ul li {
+    /* display: flex;
+  justify-content: space-around; */
+    font-size: 16px;
+}
+
+/*
+    *********
+    Top Body
+    *********
+*/
+
+.topBody {
+    background-image: url('../img/melbourne.jpg');
+    background-size: 150%;
+    background-position: top center;
+    background-clip: padding-box;
+    padding: 16px;
+}
+
+.headerText {
+    color: #fff;
+}
+
+.topBody h1 {
+    font-size: 48px;
+    margin-top: 96px;
+}
+
+.topBody p {
+    margin-top: 16px;
+    font-size: 16px;
+}
+
+/* For both button in the page */
+.btn {
+    background-color: #FF5A5F;
+    color: #fff;
+    display: inline-block;
+    padding: 16px;
+    margin-top: 8px;
+    font-size: 16px;
+}
+
+/*
+    *********
+    Middle Body
+    *********
+*/
+
+.localsContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 48px;
+}
+
+.localsLove,
+.localsComplain {
+    background-color: #fff;
+    text-align: left;
+    margin: 16px;
+}
+
+.localsLove h3,
+.localsComplain h3 {
+    background-color: #bdbdbdb0;
+    color: #808080;
+    padding: 8px;
+    margin-top: 0px;
+}
+
+
+.localsLove p,
+.localsComplain p {
+    color: #808080;
+    display: inline;
+    padding: 40px;
+    line-height: 16px;
+}
+
+.localsLove img,
+.localsComplain img {
+    display: inline;
+    padding: 16px;
+}
+
+/*
+    *********
+    Bottom Body
+    *********
+*/
+
+.featuredContainer {
+    background-color: #fff;
+    color: #5c5b5b;
+    padding-top: 24px;
+}
+
+.placesContainer {
+    color: #5c5b5b;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+}
+
+.place {
+    height: auto;
+    width: 30%;
+}
+
+.placeOne,
+.placeTwo,
+.placeThree {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#picOne {
+    background-image: url('../img/fitzroy.jpg');
+}
+
+#picTwo {
+    background-image: url('../img/st-kilda.jpg');
+}
+
+#picThree {
+    background-image: url('../img/central-business-district.jpg');
+}
+
+.placeOne h2,
+.placeTwo h2,
+.placeThree h2 {
+    color: #fff;
+    display: flex;
+    align-items: center;
+    padding-top: 96px;
+    height: auto;
+}
+
+.placeOneP,
+.placeTwoP,
+.placeThreeP {
+    text-align: center;
+    background-color: #dadcdcb0;
+    text-align: center;
+    padding: 8px;
+}
+
+.featuredContainer .btn {
+    margin-bottom: 32px;
+}
+
+/*
+    *********
+      Footer
+    *********
+*/
+
+footer {
+    background-color: #303030;
+}
+
+.footerBar {
+    border-bottom: 2px solid #383838;
+    height: 40px;
+}
+
+footer p {
+    color: #dadcdcb0;
+    padding: 8px;
+    height: 40px;
+}
