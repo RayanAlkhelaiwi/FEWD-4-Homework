@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+
+<!-- By: Rayan Alkhelaiwi -->
+<!-- For General Assembly's Front-End Web Development -->
+<!-- To-do List Website -->
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- This is the main -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Exo&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style/main.css">
+    <title>To-Do List</title>
+</head>
+
+<body>
+
+    <div class="container">
+
+        <!-- The welcome text -->
+        <div class="column firstColumn">
+            <div class="row">
+                <h1>To-do List</h1>
+                <p id="completeSentence">Click on the item to mark as complete</p>
+            </div>
+
+            <!-- user's input for the items -->
+            <div class="entery row">
+                <div class="entryBox">
+                    <input id="userInputBox" type="text" placeholder="Enter here..." maxlength="32">
+                    <button id="addBtn">Add</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Populate the user's items   -->
+        <div class="column">
+            <div id="list">
+                <p id="results">Results:</p>
+                <ul id="items">
+                    <li>Clean the room</li>
+                    <li>Do the final project</li>
+                    <li>Write the report</li>
+                    <li>Do the dishes</li>
+                    <li>Pack the backpack</li>
+                </ul>
+            </div>
+        </div>
+
+    </div>
+
+</body>
+
+<script src="script/jQuery.min.js"></script>
+<script src="script/script.js"></script>
+
+</html>
